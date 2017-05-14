@@ -28,6 +28,7 @@ class CalendarMonth extends Component {
   static propTypes = {
     DateTimeFormat: PropTypes.func.isRequired,
     autoOk: PropTypes.bool,
+    clearSelection: PropTypes.bool,
     displayDate: PropTypes.object.isRequired,
     firstDayOfWeek: PropTypes.number,
     locale: PropTypes.string.isRequired,
